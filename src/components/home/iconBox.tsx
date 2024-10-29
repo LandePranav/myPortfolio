@@ -1,6 +1,6 @@
 "use client"
 import React, { useRef } from "react";
-import {animate, easeInOut, motion, useInView} from "framer-motion"
+import {motion, useInView} from "framer-motion"
 
 
 export default function IconBox({children}: {children: React.ReactNode}) {
