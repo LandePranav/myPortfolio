@@ -2,7 +2,7 @@
 import { projects } from "@/lib/constants";
 import Link from "next/link";
 import Image from "next/image";
-import { easeInOut, easeOut, motion } from "framer-motion";
+import { easeOut, motion } from "framer-motion";
 
 export default function ProjectSection() {
     return(
@@ -13,7 +13,7 @@ export default function ProjectSection() {
             </h2>
             <div className="flex flex-col justify-center items-center gap-16">
               {projects.map((project) => (
-                <div key={project.title} className="flex w-full flex-col justify-between md:flex-row gap-6 md:gap-10">
+                <div key={project.title} className="flex w-full flex-col justify-between md:flex-row gap-6 md:gap-10 overflow-hidden">
                     <Link href={project.link} target="_blank" className="md:flex md:items-center md:justify-start ">
                       <motion.div
                         whileInView={{opacity:1,x:0}}
@@ -28,7 +28,7 @@ export default function ProjectSection() {
                     whileInView={{opacity:1,x:0}}
                     initial={{opacity:0, x:100}}
                     transition={{duration:0.7, easeOut}}
-                    className="flex flex-1 flex-col gap-1">
+                    className="flex flex-1 flex-col gap-1 overflow-hidden">
                     <h2 className="text-xl font-semibold text-gray-200">
                       <Link href={project.link} target="_blank">
                         {project.title}
