@@ -7,11 +7,11 @@ body {
 }
 
 form Input , Textarea {
-  @apply my-2;
+  @apply mt-0.5 mb-4;
 }
 
 form label {
-  @apply mt-2;
+  @apply mt-2 pl-1;
 }
 
 @layer base {

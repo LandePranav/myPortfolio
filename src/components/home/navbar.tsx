@@ -8,7 +8,7 @@ export default function Navbar() {
     const path = usePathname();
     return(
         <>
-            <nav className="text-white font-custom py-4 px-8 mx-auto max-w-4xl">
+            <nav className="text-white font-custom py-4 px-8 mx-auto max-w-lg md:max-w-4xl">
                 <ul className="flex justify-between items-center">
                     <div className="flex-1">
                         {

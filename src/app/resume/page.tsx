@@ -15,7 +15,7 @@ export default function Page() {
                 </div>
                 <div className="relative w-full max-w-xl h-[calc(100vw*1.4142)] sm:h-[calc(80vh*1.4142)] md:h-[calc(80vh*1.4142)] rounded-md my-10 overflow-hidden mx-auto">
                     <Image
-                        src="/resume.jpg"
+                        src="/myResume.jpg"
                         alt="resume"
                         fill
                         quality={100}
