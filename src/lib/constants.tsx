@@ -1,5 +1,18 @@
 export const projects = [
     {
+        title: "Food Delivery App",
+        image: "/firsttbite.png",
+        link: "https://www.firsttbite.com/",
+        deps: "NextJs, NextAuth, Cloudinary, Prisma PSQL, Tailwind",
+        description: [
+            "Multiple Seller Driven Restaurant Marketplace",
+            "Independent Seller/Admin Dashboard for product and order management",
+            "Distance Filtered Restaurants",
+            "OAuth for easy user login, and clean ordering user experience",
+            "Razorpay Payment Gateway Integration"
+        ]
+    },
+    {
         title: "Ecommerce Website",
         image: "/ecom.png",
         link: "https://zenith-ecomfront.vercel.app/",
@@ -15,7 +28,7 @@ export const projects = [
     {
         title: "Chat Application",
         image: "/chat.png",
-        link: "https://www.eikaze.online/",
+        link: "https://chatapp-feclient.vercel.app/",
         deps: "React, Web-Sockets, Express, Tailwind, MongoDB",
         description: [
             "Secure JWT user authentication.",
