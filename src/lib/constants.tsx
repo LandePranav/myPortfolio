@@ -1,7 +1,7 @@
 export const projects = [
     {
         title: "Food Delivery App",
-        image: "/firsttbite.png",
+        image: "/firsttBite.png",
         link: "https://www.firsttbite.com/",
         deps: "NextJs, NextAuth, Cloudinary, Prisma PSQL, Tailwind",
         description: [
